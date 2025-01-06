@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    width: auto;
+}
+
+#header{
+    background-color: rgb(97, 0, 0);
+    position: fixed;
+    z-index: 1;
+    color: white;
+    width: 100%;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+}
+
+#menu{    
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: "DM Serif Display", serif;
+}
+
+#menu li{
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+#menu a:any-link,#footer a:any-link{
+    color: white;
+    text-decoration: none;
+}
+
+a:any-link{
+    text-decoration: none;
+    color: rgb(97, 0, 0);
+    font-weight: bold;
+    background-color: rgb(97, 0, 0,0.5);
+}
+
+#menu a:hover,#menu li:hover{
+    background-color: rgb(117, 0, 0);
+}
+
+#content{
+    background-color: white;
+    font-family: 'Slabo 27px';
+    color: rgb(97, 0, 0);
+    position: relative;
+    top: 150px;
+    display: flex;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width: 100%; 
+}
+
+article{
+    padding: 20px;
+    flex: 40%;
+    text-align: center;
+}
+
+article#koniec p{
+    text-align: center;
+}
+
+article#img{
+    margin: auto;
+}
+
+article#przerwa{
+    width: 100%;
+    flex: 100%;
+    background-image: url(img/przerwa.jpg);
+    height: 100px;
+    background-size: contain;
+}
+
+img{
+    border: 5px solid rgb(97, 0, 0);
+    width: 80%;
+}
+
+
+#footer{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: "DM Serif Display", serif;
+    background-color: rgb(97, 0, 0);
+    position: relative;
+    top: 150px;
+}
+
+article p{
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Slabo 27px';
+    font-size: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: "DM Serif Display", serif;
+}
+
+section#galeria{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
+article#galeria img{
+    border: 5px solid rgb(97, 0, 0);
+    width: 60%;
+}
+
+article#galeria p{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+article#galeria ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+article#galeria li{
+    flex: 30%;
+}
+
+.zoom{
+    transition: transform 0.3s;
+}
+
+.zoom:hover{
+    transform: scale(1.05);
+}
+
+form{
+    text-align: center;
+}
+
+div#formularz{
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    border: 5px solid rgb(97, 0, 0);
+    font-family: 'Slabo 27px';
+    width: 30%;
+    min-width: 310px;
+}
+
+
+div.formularz{
+    background-image: url(img/przerwa.jpg);
+    background-size: 300px;
+    background-position: center;
+}
+
+table{
+    width: 70%;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+div#formularz tr{
+    height: 70px;
+}
+
+td#kat{
+    text-align: justify;
+    padding-left: 20%;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(97, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Slabo 27px';
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5%;
+    margin: 20px
+}
+
+input[type="text"],input[type="email"],input[type="tel"]{
+    font-family: 'Slabo 27px';
+    border: 2px solid rgb(97, 0, 0);
+    height: 30px;
+    text-align: center;
+    width: 200px;
+}
+
+select{
+    font-family: 'Slabo 27px';
+    border: 2px solid rgb(97, 0, 0);
+    height: 35px;
+    text-align: center;
+    width: 200px;
+}
+
+textarea{
+    font-family: 'Slabo 27px';
+    border: 2px solid rgb(97, 0, 0);
+    text-align: justify;
+    padding: 10px;
+    resize: none;
+    width: 200px;
+}
+
+input[type="file"]{
+
+    font-family: 'Slabo 27px';
+}
+
+input[type="checkbox"]{
+    accent-color: rgb(97, 0, 0);
+}
+
+form p{
+    text-align: justify;
+    padding: 10px;
+}
+
+form span{
+    font-size: 12px;
+}
+
+p#mail{
+    text-align: center;
+}
+
+section#kontakt article{
+    text-align: justify;
+    padding-left: 50px;
+}
+
+span.osoby{
+    text-indent: 20px !important;
+}
+
+ul#osoby li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#info{
+    font-weight: bold;
+}
+
+iframe{
+    width: 100%;
+}
+
+article#mapa{
+    margin: auto;
+}
