@@ -14,19 +14,42 @@
     color: white;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 25vh;
+}
+
+#content{
+    background-color: white;
+    font-family: 'Slabo 27px';
+    color: rgb(97, 0, 0);
+    position: relative;
+    top: 25vh;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+}
+#footer{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: "DM Serif Display", serif;
+    background-color: rgb(97, 0, 0);
+    position: relative;
+    top: 25vh
 }
 
 hr{
     width: 80%;
-    margin: auto;
 }
 
 #menu{    
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-weight: bold;
     font-family: "DM Serif Display", serif;
 }
@@ -35,9 +58,8 @@ hr{
     display: inline-block;
     width: auto;
     margin: 0;
-    padding: 5px 30px 5px 30px;
+    padding: 5px 20px 5px 20px;
     text-decoration: none;
-    line-height: 1.5;
 }
 
 #menu a:any-link,#footer a:any-link{
@@ -56,16 +78,6 @@ a:any-link{
     background-color: rgb(117, 0, 0);
 }
 
-#content{
-    background-color: white;
-    font-family: 'Slabo 27px';
-    color: rgb(97, 0, 0);
-    position: relative;
-    top: 150px;
-    display: flex;
-    
-}
-
 section{
     display: flex;
     flex-direction: row; 
@@ -75,7 +87,7 @@ section{
 
 article{
     padding: 20px;
-    flex: 40%;
+    flex: 45%;
     text-align: center;
 }
 
@@ -97,19 +109,8 @@ article#przerwa{
 
 img{
     border: 5px solid rgb(97, 0, 0);
-    width: 80%;
-}
-
-
-#footer{
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-weight: bold;
-    font-family: "DM Serif Display", serif;
-    background-color: rgb(97, 0, 0);
-    position: relative;
-    top: 150px;
+    width: 90%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 article p{
