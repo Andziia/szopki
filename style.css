@@ -265,12 +265,12 @@ section#kontakt{
     display: flex;
     align-items: center;
     flex-direction: row;
+    width: 100%;
 
 }
 
 section#kontakt article{
     text-align: justify;
-
 }
 
 span.osoby{
