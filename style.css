@@ -20,7 +20,7 @@
     flex-direction: column;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     min-height: fit-content;
-    height: 17%;
+    height: 10%;
     font-size: 15px;
     padding: 15px;
 }
@@ -30,14 +30,14 @@
     font-family: 'Slabo 27px';
     color: rgb(97, 0, 0);
     position: relative;
-    top: 20vh;
+    top: 17vh;
     display: flex;
     flex-direction: column;  
     align-items: center;
     justify-content: center;
     flex-grow: 1;
     z-index: 0;
-    padding: 5vw;
+    padding: 20px;
 }
 #footer{
     color: white;
@@ -47,7 +47,7 @@
     font-family: "DM Serif Display", serif;
     background-color: rgb(97, 0, 0);
     position: relative;
-    top: 20vh
+    top: 17vh
 }
 
 hr{
@@ -110,8 +110,9 @@ article#przerwa{
     width: 100%;
     flex: 100%;
     background-image: url(img/przerwa.jpg);
-    height: 100px;
     background-size: contain;
+    height: 90px;
+
 }
 
 img{
