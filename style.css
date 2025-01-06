@@ -4,7 +4,8 @@
 }
 
 #main{
-    width: auto;
+    width: 100%;
+    height: 100%;
 }
 
 #header{
@@ -27,11 +28,13 @@
     font-family: 'Slabo 27px';
     color: rgb(97, 0, 0);
     position: relative;
-    top: 25vh;
+    top: 20vh;
     display: flex;
     flex-direction: column;  
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
+    z-index: 0;
 }
 #footer{
     color: white;
@@ -41,7 +44,7 @@
     font-family: "DM Serif Display", serif;
     background-color: rgb(97, 0, 0);
     position: relative;
-    top: 25vh
+    top: 20vh
 }
 
 hr{
@@ -114,6 +117,7 @@ img{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+
 article p{
     text-align: justify;
     padding: 20px;
@@ -171,7 +175,7 @@ form{
 div#formularz{
     padding: 20px;
     background-color: white;
-    margin: 20px auto;
+    margin: 50px auto;
     border: 5px solid rgb(97, 0, 0);
     font-family: 'Slabo 27px';
     width: 30%;
