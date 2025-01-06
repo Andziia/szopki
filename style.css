@@ -35,6 +35,8 @@
     justify-content: center;
     flex-grow: 1;
     z-index: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #footer{
     color: white;
