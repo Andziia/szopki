@@ -4,7 +4,7 @@
 }
 
 #main{
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 
@@ -20,8 +20,9 @@
     flex-direction: column;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     min-height: fit-content;
-    font-size: 20px;
-    padding: 20px;
+    height: 17%;
+    font-size: 15px;
+    padding: 15px;
 }
 
 #content{
@@ -36,7 +37,7 @@
     justify-content: center;
     flex-grow: 1;
     z-index: 0;
-    padding: 10vh;
+    padding: 5vw;
 }
 #footer{
     color: white;
