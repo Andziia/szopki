@@ -19,8 +19,9 @@
     justify-content: center;
     flex-direction: column;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    height: 20vh;
+    height: 25vh;
     min-height: fit-content;
+    font-size: 20px;
 }
 
 #content{
@@ -35,8 +36,8 @@
     justify-content: center;
     flex-grow: 1;
     z-index: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 #footer{
     color: white;
